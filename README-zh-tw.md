@@ -33,11 +33,11 @@
   <h3 align="center">BaiduSpider</h3>
 
   <p align="center">
-    一个爬取百度的利器
+    一個爬取百度的利器
     <br />
-    <span>简体中文</span>
+    <a href="https://github.com/BaiduSpider/BaiduSpider/blob/dev/README.md"><strong>简体中文</strong></a>
     |
-    <a href="https://github.com/BaiduSpider/BaiduSpider/blob/dev/README-zh-tw.md"><strong>繁體中文</strong></a>
+    <span>繁體中文</span>
     |
     <a href="https://github.com/BaiduSpider/BaiduSpider/blob/dev/README-en.md"><strong>English</strong></a>
     <br />
@@ -46,9 +46,9 @@
     <br />
     <a href="https://baiduspider.github.io/usage/get-started/">查看示例</a>
     ·
-    <a href="https://github.com/BaiduSpider/BaiduSpider/issues">报告问题</a>
+    <a href="https://github.com/BaiduSpider/BaiduSpider/issues">報告問題</a>
     ·
-    <a href="https://github.com/BaiduSpider/BaiduSpider/issues">请求需求</a>
+    <a href="https://github.com/BaiduSpider/BaiduSpider/issues">請求需求</a>
   </p>
 </p>
 
@@ -56,59 +56,59 @@
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary>目录</summary>
+  <summary>目錄</summary>
   <ol>
     <li>
-      <a href="#关于本项目">关于本项目</a>
+      <a href="#關於本項目">關於本項目</a>
       <ul>
-        <li><a href="#依赖库">依赖库</a></li>
+        <li><a href="#制作依賴">制作依賴</a></li>
       </ul>
     </li>
     <li>
       <a href="#起步">起步</a>
       <ul>
-        <li><a href="#预先条件">预先条件</a></li>
-        <li><a href="#安装">安装</a></li>
+        <li><a href="#預先條件">預先條件</a></li>
+        <li><a href="#安裝">安裝</a></li>
       </ul>
     </li>
-    <li><a href="#简单使用">简单使用</a></li>
-    <li><a href="#项目路线图">项目路线图</a></li>
-    <li><a href="#项目共建">项目共建</a></li>
-    <li><a href="#开源协议">开源协议</a></li>
-    <li><a href="#联系方式">联系方式</a></li>
-    <li><a href="#免责声明">免责声明</a></li>
-    <li><a href="#贡献者">贡献者</a></li>
-    <li><a href="#致谢">致谢</a></li>
+    <li><a href="#簡單使用">簡單使用</a></li>
+    <li><a href="#項目路線圖">項目路線圖</a></li>
+    <li><a href="#共同維護">共同維護</a></li>
+    <li><a href="#開源協議">開源協議</a></li>
+    <li><a href="#聯系方式">聯系方式</a></li>
+    <li><a href="#免責聲明">免責聲明</a></li>
+    <li><a href="#貢獻者">貢獻者</a></li>
+    <li><a href="#致謝">致謝</a></li>
   </ol>
 </details>
 
 
 <!-- ## 警告
 
-此分支为`dev`分支（开发分支）。该分支的所有代码或功能都可能不稳定，仅供参考。不建议在开源项目中使用此分支的 BaiduSpider。 -->
+此分支為`dev`分支，也就是開發分支。也就是說，所有代碼或功能可能都不穩定，僅供參考。不建議在開源項目中使用此分支的BaiduSpider。 -->
 
 
 <!-- ABOUT THE PROJECT -->
-## 关于本项目
+## 關於本項目
 
-[![项目截图][product-screenshot]](https://baiduspider.github.io)
+[![項目截圖][product-screenshot]](https://baiduspider.github.io)
 
-搜索引擎是一个十分强大的工具，如果能让其他工具集成搜索引擎的众多强大功能，那么这些工具必将变得更加强大。但目前我没有找到一个可以精准提取搜索引擎搜索结果的开源爬虫。于是，我便编写了这个爬取百度搜索引擎的项目：BaiduSpider。
+搜索引擎是一個十分強大的工具，如果能讓其他工具集成搜索引擎的眾多強大功能，那麼必將變得更加強大。但是，目前我沒有找到一個可以精準提取搜索引擎搜索結果的開源爬蟲。於是，我便編寫了這個爬取百度搜索引擎的項目：BaiduSpider。
 
-BaiduSpider 的独特功能:
-* 节省提取数据的时间，对于类似深度学习项目的数据模型建立与训练起到了良好的帮助。
+BaiduSpider的獨特功能:
+* 節省提取數據的時間，對於類似深度學習項目的數據模型建立與訓練起到了良好的幫助。
 
-* 精准提取数据，并删除广告。
+* 精準提取數據，並刪除廣告。
 
-* 搜索结果大而全，支持多种搜索类型，支持多种返回类型。
+* 搜索結果大而全，支持多種搜索類型，支持多種返回類型。
 
-当然，没有一个项目是完美的。任何一个项目的发展都需要社区的帮助。你可以通过发布 Issue 或提交 PR 来帮助 BaiduSpider 进步！:smile:
+當然，沒有一個項目是完美的。任何一個項目的發展都需要社區的幫助。你可以通過發布一個Issue或提交一個PR來幫助BaiduSpider進步！:smile:
 
-一些比较有帮助的文档或工具将在最后的致谢部分中列出。
+一些比較有幫助的文檔或工具我將在最後的致謝部分中列出。
 
-### 依赖库
+### 制作依賴
 
-一些 BaiduSpider 使用的主要开源依赖库。
+一些BaiduSpider使用的主要開源依賴包。
 
 * [BeautifulSoup 4](https://www.crummy.com/software/BeautifulSoup/)
 * [requests](https://docs.python-requests.org/zh_CN/latest/)
@@ -118,29 +118,29 @@ BaiduSpider 的独特功能:
 <!-- GETTING STARTED -->
 ## 起步
 
-为了安装 BaiduSpider，请按照以下几个步骤操作。
+以安裝BaiduSpider，請按照以下幾個步驟操作。
 
-### 预先条件
+### 預先條件
 
-在安装 BaiduSpider 之前，请确保你安装了`Python3.6+`：
+在安裝BaiduSpider之前，請確保你安裝了`Python3.6+`：
 
 ```sh
 $ python --version
 ```
 
-若版本小于`3.6.0`，请到[Python官网](https://www.python.org/downloads/)下载并安装 Python。
+若版本小於`3.6.0`，請到[Python官網](https://www.python.org/downloads/)下載並安裝Python。
 
-### 安装
+### 安裝
 
-#### 使用`pip`安装
+#### 使用`pip`安裝
 
-请在命令行中键入：
+請在命令行中輸入下列指令：
 
 ```sh
 $ pip install baiduspider
 ```
 
-#### 从 GitHub 手动安装
+#### 從GitHub手動安裝
 
 ```sh
 $ git clone git@github.com:BaiduSpider/BaiduSpider.git
@@ -152,69 +152,67 @@ $ python setup.py install
 
 
 <!-- USAGE EXAMPLES -->
-## 简单使用
+## 簡單使用
 
-你可以使用以下代码，通过 BaiduSpider 获取百度的网页搜索结果：
+你可以使用BaiduSpider通過短短的幾行代碼來獲取百度的網頁搜索結果：
 
 ```python
-# 导入BaiduSpider
+# 導入BaiduSpider
 from baiduspider import BaiduSpider
 from pprint import pprint
 
-# 实例化BaiduSpider
+# 實例化BaiduSpider
 spider = BaiduSpider()
 
-# 搜索网页
+# 搜索網頁
 pprint(spider.search_web(query='Python'))
 ```
 
-_更多样例和配置，请参照[文档](https://baiduspider.github.io)_
+_更多樣例和配置，請參照[文檔](https://baiduspider.github.io)_
 
 
 
 <!-- ROADMAP -->
-## 项目路线图
+## 項目路線圖
 
-请参考 [Opening Issues](https://github.com/BaiduSpider/BaiduSpider/issues) 以获取最新的项目规划以及已知问题。
+請參考[open issues](https://github.com/BaiduSpider/BaiduSpider/issues)以獲取最新的項目規劃以及已知問題。
 
 
 
 <!-- CONTRIBUTING -->
-## 项目共建
+## 共同維護
 
-社区的贡献是开源项目的灵魂所在，也是整个开源社区学习、交流、获得灵感的方式。我们**极力欢迎**任何人参与本项目的开发与维护。
+項目貢獻是開源項目的靈魂所在，也是整個開源社區學習、交流、獲得靈感的地方。任何貢獻都將**極力歡迎**。
 
-具体参与步骤如下：
-
-1. Fork 此项目
-2. 创建 Feature 分支 (`git checkout -b NewFeatures`)
-3. 在每次修改代码后，提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 将更改推送到自己的远程仓库 (`git push origin username/BaiduSpider`)
-5. 在 GitHub 上打开你的仓库，根据指引提交 PR
+1. Fork此項目
+2. 創建你的feature分支 (`git checkout -b NewFeatures`)
+3. 提交你的更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送更改 (`git push origin username/BaiduSpider`)
+5. 提交一個PR
 
 
 
 <!-- LICENSE -->
-## 开源协议
+## 開源協議
 
-本项目基于`GPL-V3`开源，详情请参见`LICENSE`。
+此項目的開源協議為`GPL-V3`，詳情請參見`LICENSE`。
 
 
 
 <!-- CONTACT -->
-## 联系方式
+## 聯系方式
 
 samzhangjy - [@samzhangjy](https://twitter.com/samzhangjy) - samzhang951@outlook.com
 
-项目链接：[https://github.com/BaiduSpider/BaiduSpider](https://github.com/BaiduSpider/BaiduSpider)
+項目鏈接: [https://github.com/BaiduSpider/BaiduSpider](https://github.com/BaiduSpider/BaiduSpider)
 
 
-## 免责声明
+## 免責聲明
 
-此项目仅作为学习用途，不可商用或用于爬取百度大量数据。此外，本项目使用`GPL-V3`版权协议，意味着涉及（使用）此项目的任何其它项目必须开源且注明出处，并且本项目作者不承担滥用导致的任何法律风险。特此说明，违者后果自负。
+此項目僅作為學習用途，不可商用或爬取百度大量數據。此外，本項目使用`GPL-V3`版權協議，意味著涉及（使用）此項目的任何其它項目必須開源且註明出處，並且本項目作者將不承擔任何法律風險。特此說明，違者後果自負。
 
 
-## 贡献者
+## 貢獻者
 
 <a href="https://github.com/baiduspider/baiduspider/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=baiduspider/baiduspider" />
@@ -222,9 +220,9 @@ samzhangjy - [@samzhangjy](https://twitter.com/samzhangjy) - samzhang951@outlook
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## 致谢
+## 致謝
 * [BeautifulSoup 4](https://www.crummy.com/software/BeautifulSoup/)
-* [Requests](https://docs.python-requests.org/zh_CN/latest/)
+* [requests](https://docs.python-requests.org/zh_CN/latest/)
 * [Img Shields](https://shields.io)
 * [Gitmoji](https://gitmoji.dev/)
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
